@@ -1,0 +1,183 @@
+@font-face {
+    font-family: font2;
+    src: url(Poppins-LightItalic.ttf);
+  }
+  
+  * {
+    /* border: solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.6;
+    font-family: font2;
+    background-color: #97c0ba;
+  }
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #222121;
+    color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.back-to-top:hover {
+    background-color: #000000;
+}
+
+.imgseta {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -2px;
+    margin-right: 15px;
+    transition: transform 0.5s;
+    
+}
+
+.imgseta:hover {
+    background-color: #222121;
+    border-radius: 100%;
+    color: #bdd1ce7c;
+    background-color: #bdd1ce7c;
+    transform: scale(1.2);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    
+}
+
+footer {
+  
+    background-color: #ffffff94;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sobre-logo {
+    width: 300px;
+    height: 200px;
+  
+  }
+  
+  .sobre-logo img {
+    margin-top: 2%;
+    width: 200px;
+    height: 60px;
+  }
+  
+  .sobre-logo p {
+    font-family: font2;
+    font-size: 20px;
+    margin-left: 9%;
+  }
+  
+  .mapa-site {
+    margin-top: 3%;
+    margin-left: 30px;
+  }
+  
+  .mapa-site h2 {
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  .mapa-site ul {
+    margin-left: 20px;
+    list-style-type: none;
+  }
+  
+  .mapa-site li {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .mapa-site a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .mapa {
+    color: #000000;
+    font-family: font2;
+    margin-top: 2%;
+    margin-left: 30px;
+    font-size: 15px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mapa iframe {
+    width: 400px;
+    height: 300px;
+  }
+  
+  .mapa p {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  .como-ajudar {
+    margin-left: 30px;
+    width: 290px;
+    font-size: 20px;
+  }
+  
+  .como-ajudar h2 {
+    font-family: font2;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .como-ajudar p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .como-ajudar button {
+    text-align: center;
+    font-family: font2;
+    margin-left: 40px;
+    color: black;
+    background-color: rgb(175, 233, 224);
+  }
+  
+  .redes-sociais {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    height: 50px;
+  }
+  
+  .redes-sociais1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .redes-sociais h2 {
+    font-size: 20px;
+    width: 200px;
+  }
+  
+  
+  .redes-sociais img {
+    flex-direction: column;
+    height: 70px;
+    width: 60px;
+    margin-left: 30px;
+  }
+  
